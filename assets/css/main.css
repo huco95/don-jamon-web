@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  @apply relative flex items-center justify-center min-h-screen;
+}
+
+.hero::before {
+  content: '';
+  background-image: url('~/assets/images/hero.webp');
+  @apply absolute top-0 left-0 w-full h-full bg-cover filter grayscale brightness-50;
+}
