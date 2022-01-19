@@ -9,9 +9,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      brightness: {
-        30: '0.3'
-      },
       colors: {
         donjamon: '#9f063f'
       },
@@ -24,6 +21,9 @@ module.exports = {
           '10%': { transform: 'translateY(0)', opacity: '1' },
           '100%': { transform: 'translateY(15px)', opacity: '0' },
         }
+      },
+      backgroundImage: {
+        'hero-image': "url('~/assets/images/hero.webp')"
       }
     },
   },

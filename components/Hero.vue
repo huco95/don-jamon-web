@@ -1,5 +1,7 @@
 <template>
-  <section class="hero">
+  <section
+    class="relative flex items-center justify-center min-h-screen before:content-[''] before:bg-hero-image before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-cover before:filter before:grayscale before:brightness-50"
+  >
     <div class="relative p-4 lg:p-44">
       <img
         src="@/assets/images/donjamon-light.png"
