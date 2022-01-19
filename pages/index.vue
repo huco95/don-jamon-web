@@ -2,11 +2,11 @@
   <div>
     <Hero />
 
-    <section class="hidden">// TODO current web content ¿?</section>
+    <About class="mt-14" />
 
     <Insta-Images class="mt-14" />
 
-    <Reviews class="mt-6" />
+    <Reviews class="mt-6 md:mt-14" />
 
     <Footer class="mt-14" />
   </div>
