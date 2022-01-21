@@ -2,7 +2,7 @@
   <div class="h-full">
     <Hero class="hero" />
 
-    <About class="mt-14" />
+    <About id="about" class="mt-14 scroll-mt-14" />
 
     <Insta-Images class="mt-14" />
 

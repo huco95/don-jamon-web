@@ -29,12 +29,14 @@
       </div>
     </div>
 
-    <p
+    <a
+      href="#about"
       class="absolute bottom-[0.5rem] text-xs font-semibold uppercase text-white opacity-70 cursor-pointer"
     >
       Descubre más
-    </p>
-    <div
+    </a>
+    <a
+      href="#about"
       class="absolute bottom-[2rem] right-0 left-0 m-auto w-[34px] h-[55px] cursor-pointer"
     >
       <div
@@ -44,7 +46,7 @@
           class="w-[3px] h-[10px] rounded-[25%] bg-white animate-scroll"
         ></div>
       </div>
-    </div>
+    </a>
   </section>
 </template>
 
