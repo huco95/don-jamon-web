@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+  @apply h-full m-0;
+}
+
+#__nuxt,
+#__layout {
+  @apply h-full;
+}
+
 .hero {
-  @apply relative flex items-center justify-center min-h-screen before:content-[''] before:bg-hero-image before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-cover before:filter before:grayscale before:brightness-50;
+  @apply h-full flex items-center justify-center before:content-[''] before:bg-hero-image before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-cover before:filter before:grayscale before:brightness-50;
 }
 
 /* TailwindCss filters does not work on production, so this is the workarround */

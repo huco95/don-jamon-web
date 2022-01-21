@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Hero />
+  <div class="h-full">
+    <Hero class="hero" />
 
     <About class="mt-14" />
 
